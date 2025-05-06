@@ -5,7 +5,7 @@ This repository contains a curated collection of machine learning and AI-based m
 
 ---
 
-## ✅ **README Template for ML Projects**
+## ✅ **README for ML Projects**
 
 ## 📚 List of Projects
 
