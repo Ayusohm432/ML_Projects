@@ -1,117 +1,105 @@
-# ML_Projects-
-This project applies machine learning to analyze and predict outcomes based on real-world data. It involves data preprocessing, model training, evaluation, and optimization using Python libraries like scikit-learn, pandas, and matplotlib for end-to-end ML workflow.
+```markdown
+# 💡 ML_Projects-
+
+This repository contains a curated collection of machine learning and AI-based mini-projects built using Python. Each project focuses on solving real-world problems using modern tools, libraries, and frameworks. The goal is to explore end-to-end ML and AI workflows—from data preparation to deployment-ready applications.
 
 ---
 
 ## ✅ **README Template for ML Projects**
 
-### 📌 Project Title
+## 📚 List of Projects
 
-**Example**: *Customer Churn Prediction using Machine Learning*
+1. **[GPT-3.5 ChatBot using Streamlit](#1-gpt-35-chatbot-using-streamlit)**  
+   An interactive AI-powered chatbot app that leverages OpenAI's GPT-3.5 model with a Streamlit UI.
+
+*(More projects will be added soon...)*
 
 ---
 
+## 🧠 1. GPT-3.5 ChatBot using Streamlit
+
 ### 📖 Project Description
 
-This project focuses on solving a real-world problem using machine learning techniques. The aim is to \[briefly state the problem, e.g., predict customer churn, classify handwritten digits, detect fraud, etc.]. The dataset used is \[dataset name or source], and various preprocessing steps were applied to clean and prepare the data.
-
-We trained and evaluated several ML models including \[mention models like Logistic Regression, Random Forest, SVM, XGBoost, etc.], and selected the best-performing one based on metrics such as \[accuracy, F1-score, ROC-AUC, etc.].
+This project implements an AI chatbot using **OpenAI's GPT-3.5 model** within a **Streamlit** web interface. It handles real-time user queries, maintains session-based chat history, and responds conversationally. The app is lightweight and well-suited for experimenting with LLM integration.
 
 ---
 
 ### 🧰 Tech Stack / Tools Used
 
-* **Programming Language**: Python 3.x
-* **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, \[Others like XGBoost, TensorFlow, etc.]
-* **IDE**: Jupyter Notebook / VS Code
-* **Data Source**: \[Kaggle / UCI / Custom dataset]
+* **Programming Language**: Python 3.x  
+* **Libraries**: Streamlit, OpenAI, JSON, OS  
+* **IDE**: VS Code / Jupyter Notebook  
+* **API**: OpenAI GPT-3.5-turbo  
+* **Deployment**: Localhost or Streamlit Cloud
 
 ---
 
-### 🧪 Features
+### 🚀 Features
 
-* Data loading and exploration
-* Data preprocessing and visualization
-* Feature engineering
-* Model training and evaluation
-* Hyperparameter tuning
-* Model saving using `joblib` or `pickle`
-
----
-
-### 🗃️ Dataset
-
-Provide a short description of the dataset:
-
-* Source: \[Link to dataset]
-* Number of rows and columns
-* Key features
-* Target variable
+* Responsive chatbot interface
+* Persistent chat memory with Streamlit session state
+* API key securely read from a `config.json` file
+* GPT-3.5-turbo integration via `openai.ChatCompletion`
+* Simple and elegant user interface using Streamlit
 
 ---
 
-### 🚀 How to Run
+### 🗂️ File Structure
+
+```
+
+chatbot/
+│
+├── app.py               # Streamlit app
+├── config.json          # Contains API key (excluded from version control)
+
+````
+
+---
+
+### ⚙️ How to Run
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Ayusohm432/ML_Projects-.git
-   cd your-ml-project
+   cd ML_Projects-/chatbot
+````
+
+2. Create `config.json` with your OpenAI API key:
+
+   ```json
+   {
+     "OPENAI_API_KEY": "your-api-key-here"
+   }
    ```
 
-2. Install dependencies:
+3. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit openai
    ```
 
-3. Run the Jupyter notebook:
+4. Launch the app:
 
    ```bash
-   jupyter notebook
+   streamlit run app.py
    ```
 
-4. Open `main.ipynb` or `project_name.ipynb` and execute cells sequentially.
-
 ---
 
-### 📈 Model Performance
+### 📌 Future Improvements
 
-Summarize the results:
-
-* Best Accuracy: xx%
-* Confusion Matrix: Attached below (optional)
-* ROC Curve: Attached (optional)
-
----
-
-### 📦 File Structure
-
-```
-project/
-│
-├── data/               # Raw and processed data
-├── notebooks/          # Jupyter notebooks
-├── src/                # Python scripts
-├── models/             # Saved ML models
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
-```
-
----
-
-### 📌 Future Work
-
-* Use of deep learning models (e.g., LSTM, CNN)
-* Deploy model with Flask/Streamlit
-* Improve data augmentation or feature engineering
+* Add voice input/output
+* Add multiple assistant personalities (e.g., tutor, friend, coder)
+* Deploy on Streamlit Cloud
+* Add usage analytics
 
 ---
 
 ### 🙌 Acknowledgements
 
-* \[Data source or any tutorials used]
-* \[Any contributors]
+* [OpenAI](https://platform.openai.com/docs/)
+* [Streamlit](https://docs.streamlit.io/)
 
 ---
-
