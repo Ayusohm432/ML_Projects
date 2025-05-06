@@ -1,6 +1,5 @@
 ---
-```markdown
-# 💡 ML_Projects-
+## 💡 **ML_Projects**
 
 This repository contains a curated collection of machine learning and AI-based mini-projects built using Python. Each project focuses on solving real-world problems using modern tools, libraries, and frameworks. The goal is to explore end-to-end ML and AI workflows—from data preparation to deployment-ready applications.
 
@@ -63,8 +62,8 @@ chatbot/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Ayusohm432/ML_Projects-.git
-   cd ML_Projects-/chatbot
+   git clone https://github.com/Ayusohm432/ML_Projects.git
+   cd ML_Projects/chatbot
 ````
 
 2. Create `config.json` with your OpenAI API key:
