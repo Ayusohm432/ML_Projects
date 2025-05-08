@@ -1,5 +1,3 @@
-
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
@@ -18,3 +16,21 @@ env/
 # IDE files
 .vscode/
 .idea/
+
+# Secret JSON files
+*secret*.json
+
+# Config file that may contain sensitive data
+config.json
+
+# Ignore any file whose name suggests it contains sensitive information,
+# such as secret keys, API keys, or other security-related data
+*secret*
+*api*
+*key*
+
+# Optionally, ignore common certificate and private key files
+*.pem
+*.pfx
+*.crt
+*.key
