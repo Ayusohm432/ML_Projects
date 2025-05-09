@@ -8,7 +8,7 @@ This repository contains a curated collection of machine learning and AI-based m
 
 ## 📚 List of Projects
 
-1. **[GPT-3.5 ChatBot using Streamlit](#1-gpt-35-chatbot-using-streamlit)**
+1. **[GPT-3.5 ChatBot using Streamlit](#1-gpt-4o-chatbot-using-streamlit)**
    An interactive AI-powered chatbot app that leverages OpenAI's GPT-3.5 model with a Streamlit UI.
 
 2. **[Object Detector using OpenCV and TensorFlow](#2-object-detector-using-opencv-and-tensorflow)**
