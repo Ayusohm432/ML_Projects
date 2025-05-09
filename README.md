@@ -22,18 +22,18 @@ This repository contains a curated collection of machine learning and AI-based m
 
 ---
 
-### 🧠 1. GPT-3.5 ChatBot using Streamlit
+### 🧠 1. GPT-4o ChatBot using Streamlit
 
 > #### 📖 Project Description
 >
-> This project implements an AI chatbot using **OpenAI's GPT-3.5 model** within a **Streamlit** web interface. It handles real-time user queries, maintains session-based chat history, and responds conversationally. The app is lightweight and well-suited for experimenting with LLM integration.
+> This project implements an AI chatbot using **OpenAI's GPT-4o model** within a **Streamlit** web interface. It handles real-time user queries, maintains session-based chat history, and responds conversationally. The app is lightweight and well-suited for experimenting with LLM integration.
 
 > #### 🧰 Tech Stack / Tools Used
 >
-> * **Programming Language**: Python 3.x
+> * **Programming Language**: Python 3
 > * **Libraries**: Streamlit, OpenAI, JSON, OS
 > * **IDE**: VS Code / Jupyter Notebook
-> * **API**: OpenAI GPT-3.5-turbo
+> * **API**: OpenAI GPT-4o
 > * **Deployment**: Localhost or Streamlit Cloud
 
 > #### 🚀 Features
@@ -41,7 +41,7 @@ This repository contains a curated collection of machine learning and AI-based m
 > * Responsive chatbot interface
 > * Persistent chat memory with Streamlit session state
 > * API key securely read from a `config.json` file
-> * GPT-3.5-turbo integration via `openai.ChatCompletion`
+> * GPT-4o integration via `GITHUB.ChatCompletio`
 > * Simple and elegant user interface using Streamlit
 
 > #### 🗂️ File Structure
@@ -61,11 +61,11 @@ This repository contains a curated collection of machine learning and AI-based m
 >    git clone https://github.com/Ayusohm432/ML_Projects.git
 >    cd ML_Projects/chatbot
 >    ```
-> 2. Create `config.json` with your OpenAI API key:
+> 2. Create `config.json` with your GITHUB API key:
 >
 >    ```json
 >    {
->      "OPENAI_API_KEY": "your-api-key-here"
+>      "GITHUB_API_KEY": "your-api-key-here"
 >    }
 >    ```
 > 3. Install dependencies:
